@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema({
     public_id: String,
     url: {
       type: String,
-      default: 'https://www.istockphoto.com/vector/vector-flat-illustration-in-grayscale-avatar-user-profile-person-icon-gender-gm2151669184-572745045'
+      default: 'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png'
     }
   },
   phoneNumber: {
